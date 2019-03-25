@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actors", "Actors\Actors.csproj", "{4FDEC892-59AB-4861-A730-837ACC7BEC31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actors.AkkaNET", "Actors.AkkaNET", "{8DEE989E-5F47-4617-9C74-103EEACDEBD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actors.AkkaNET.App", "Actors.Akka.NET.App\Actors.AkkaNET.App.csproj", "{9395C00E-BEA6-4C06-A7C9-A4389F726920}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actors.Orleans", "Actors.Orleans", "{0F386666-17D5-4845-B704-CEB4A5FEACBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actors.Orleans.Silo", "Actors.Orleans.Silo\Actors.Orleans.Silo.csproj", "{85B2522C-81F5-4835-8708-DADFC7F2179C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actors.Orleans.Client", "Actors.Orleans.Client\Actors.Orleans.Client.csproj", "{64579D73-62BF-499D-9A43-5852D22769C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actors.Orlean.Grains", "Actors.Orleans.Grains\Actors.Orlean.Grains.csproj", "{928AFACE-BD44-4E93-8036-320F845E3810}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FDEC892-59AB-4861-A730-837ACC7BEC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDEC892-59AB-4861-A730-837ACC7BEC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDEC892-59AB-4861-A730-837ACC7BEC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDEC892-59AB-4861-A730-837ACC7BEC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9395C00E-BEA6-4C06-A7C9-A4389F726920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9395C00E-BEA6-4C06-A7C9-A4389F726920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9395C00E-BEA6-4C06-A7C9-A4389F726920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9395C00E-BEA6-4C06-A7C9-A4389F726920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B2522C-81F5-4835-8708-DADFC7F2179C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B2522C-81F5-4835-8708-DADFC7F2179C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B2522C-81F5-4835-8708-DADFC7F2179C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B2522C-81F5-4835-8708-DADFC7F2179C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64579D73-62BF-499D-9A43-5852D22769C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64579D73-62BF-499D-9A43-5852D22769C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64579D73-62BF-499D-9A43-5852D22769C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64579D73-62BF-499D-9A43-5852D22769C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928AFACE-BD44-4E93-8036-320F845E3810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928AFACE-BD44-4E93-8036-320F845E3810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928AFACE-BD44-4E93-8036-320F845E3810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928AFACE-BD44-4E93-8036-320F845E3810}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9395C00E-BEA6-4C06-A7C9-A4389F726920} = {8DEE989E-5F47-4617-9C74-103EEACDEBD0}
+		{85B2522C-81F5-4835-8708-DADFC7F2179C} = {0F386666-17D5-4845-B704-CEB4A5FEACBE}
+		{64579D73-62BF-499D-9A43-5852D22769C1} = {0F386666-17D5-4845-B704-CEB4A5FEACBE}
+		{928AFACE-BD44-4E93-8036-320F845E3810} = {0F386666-17D5-4845-B704-CEB4A5FEACBE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1E50849-2930-496C-B39A-20ADA321EA56}
+	EndGlobalSection
+EndGlobal
